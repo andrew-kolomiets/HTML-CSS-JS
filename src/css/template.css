@@ -1,0 +1,18 @@
+
+nav{
+    background-color:rgb(61,47,43);
+    height: 300px;
+};
+
+ul{
+    list-style: none;
+    
+};
+
+body{
+    background-color: rgb(246,243,238);
+};
+
+div img{
+   display: inline-block; 
+};
