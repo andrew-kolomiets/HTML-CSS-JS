@@ -1,28 +1,29 @@
+*{
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgb(246,243,238);
     margin: 0 0 0 0;
-    
 }
 
 header{
     background-color:rgb(61,47,43);
     height: 170px;
-    /* text-align: center; */
+    position:relative;
 }
 
 ul.no-bullets{
     padding-left: 0;
     display: inline-block;
-    margin-right: 160px;
     
 }
 
 .no-bullets {
     list-style-type: none;
     position: absolute;
-    left:20px;
-    top:40px
+    left:4%;
+    top:30%
 }
 
 
@@ -52,19 +53,22 @@ header a{
     text-align: center;
 }
 
-.images div img
-{
-    width: 70%;
+.images div{
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.images div:last-child{
+    margin-right: 0%;
 }
 
 h1.name_of_page{
     color: white;
     text-align: center;
     display: inline-block;
-    /* margin-right: 200px; */
     position: absolute;
-    left:450px;
-    top:1px;
+    left:45%;
+    top:1%;
     font-size:40px;
 }
 
@@ -85,23 +89,17 @@ button
     color: white;
     display: inline-block;
     position: absolute;
-    top: 40px;
-    left:760px;
+    top: 30%;
+    left:80%;
 
 
 }
-/* .images div img{
-    width: 200px;
-    
-} */
-
-/* .text {
-    display:inline-block;
-} */
-
 
 h1,h2 {
     text-align: center;
+    font-family: "Spectral";
+    font-weight:100;
+    font-style: normal;
 }
 
 footer{
@@ -112,6 +110,7 @@ footer{
 footer a {
     text-decoration: none;
     color: rgb(61,47,43);
+    font-size: 23px;
 }
 
 
@@ -123,7 +122,7 @@ div.img_foot{
 }
 
 .img_foot img{
-    width: 900px;
+    width: 100%;
     margin: 0;
     margin-bottom: 30px;
    
@@ -137,7 +136,8 @@ main ul{
 
 hr{
     width: 700px;
-    color: rgb(61,47,43);
+    color: rgb(155, 66, 18);
+    
 }
 
 .footer_navigation{
@@ -150,7 +150,7 @@ hr{
 
 .footer_navigation li{
     display: inline-block;
-    margin-right:200px;
+    margin-right:300px;
     
 }
 
@@ -168,8 +168,6 @@ ul li:last-child
 }
 
 
-
-
 h1, h2, p {
     color: rgb(83,69,64);
 }
@@ -184,19 +182,20 @@ main>h2{
 
 section.text{
     align-items: center;
-    /* text-align: center; */
-
 }
 
 .text div{
     display: inline-block;
     width: 45%;
-    margin-left: 35px;
+    margin-left: 2%;
+    vertical-align: top;
 }
 
 p{
     line-height: 1.5;
     font-size: 20px;
-    text-align: justify
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 400;
     
 }
